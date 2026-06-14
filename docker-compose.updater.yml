@@ -1,0 +1,14 @@
+services:
+  rag-updater:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./knowledge_base:/app/knowledge_base
+      - ./faiss.index:/app/faiss.index
+      - ./metadata.pkl:/app/metadata.pkl
+      - ./index_update.log:/app/index_update.log
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    command: python update_index.py
