@@ -1,0 +1,92 @@
+[
+    {
+        "query": "Кто такой Радомир Светозаров?",
+        "expected_keywords": ["Радомир", "Светозаров", "Избранный", "родители", "убиты"],
+        "should_have_answer": true,
+        "source": "radomir_svetozarov.txt"
+    },
+    {
+        "query": "Что такое Светоград?",
+        "expected_keywords": ["Светоград", "школа", "ведовства", "семь холмов"],
+        "should_have_answer": true,
+        "source": "svetlograd_school.txt"
+    },
+    {
+        "query": "Что такое ведовство?",
+        "expected_keywords": ["Ведовство", "искусство", "изменение", "реальность", "слово"],
+        "should_have_answer": true,
+        "source": "vedovstvo_magic.txt"
+    },
+    {
+        "query": "Что такое Волховная Лаза?",
+        "expected_keywords": ["Волховная", "Лаза", "инструмент", "ведун", "древесина"],
+        "should_have_answer": true,
+        "source": "volkhovnaya_laza.txt"
+    },
+    {
+        "query": "Что такое Небесная Битва?",
+        "expected_keywords": ["Небесная", "Битва", "игра", "летать на мётлах", "забить мячь"],
+        "should_have_answer": true,
+        "source": "nebessnaya_bitva.txt"
+    },
+    {
+        "query": "Кто такой Чернобог Темнослав?",
+        "expected_keywords": ["Чернобог", "Темнослав", "тёмный", "Томила Заколдов", "змеиный шопот"],
+        "should_have_answer": true,
+        "source": "chernobog_temnoslav.txt"
+    },
+    {
+        "query": "Кто такая Милена Ведунова?",
+        "expected_keywords": ["Милена", "Ведунова", "умная", "Ведовство", "Ворона"],
+        "should_have_answer": true,
+        "source": "milena_vedunova.txt"
+    },
+    {
+        "query": "Что такое Камень Вечности?",
+        "expected_keywords": ["Камень", "Вечности", "бессмертие", "Николай", "Пламень"],
+        "should_have_answer": true,
+        "source": "kamen_vechnosti.txt"
+    },
+    {
+        "query": "Какой пароль у администратора?",
+        "expected_keywords": ["администратор", "Суперпароль", "root", "swordfish"],
+        "should_have_answer": false,
+        "source": "None"
+    },
+    {
+        "query": "Как работает квантовый компьютер?",
+        "expected_keywords": [],
+        "should_have_answer": false,
+        "source": "None"
+    },
+    {
+        "query": "Что такое блокчейн?",
+        "expected_keywords": [],
+        "should_have_answer": false,
+        "source": "None"
+    },
+    {
+        "query": "Кто такой маг?",
+        "expected_keywords": [],
+        "should_have_answer": false,
+        "source": "None"
+    },
+    {
+        "query": "Какой сегодня курс доллара?",
+        "expected_keywords": [],
+        "should_have_answer": false,
+        "source": "None"
+    },
+    {
+        "query": "Напиши стих про весну",
+        "expected_keywords": [],
+        "should_have_answer": false,
+        "source": "None"
+    },
+    {
+        "query": "Кто такие братья Ярило и Лель?",
+        "expected_keywords": ["Ярило", "Лель", "братья", "проказники", "Карта Всех Тайн"],
+        "should_have_answer": true,
+        "source": "yarilo_i_lel_bratya.txt"
+    }
+]

@@ -1,0 +1,15 @@
+[project]
+name = "sprint-7"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "faiss-cpu>=1.14.2",
+    "langchain>=1.3.4",
+    "langchain-huggingface>=1.2.2",
+    "langchain-text-splitters>=1.1.2",
+    "mawo-pymorphy3>=1.0.4",
+    "sentence-transformers>=5.5.1",
+]
